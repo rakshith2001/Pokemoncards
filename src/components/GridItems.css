@@ -1,0 +1,41 @@
+@media only screen and (min-width: 768px) {
+    .content{
+        display:flex;
+        justify-content:center;
+
+    }
+    .content-item{
+        display:grid;grid-template-columns:auto auto auto;gap:35px;
+
+    }
+}
+
+@media only screen and (min-width: 600px)  and (max-width: 767px) {
+    .content{
+        display:flex;
+        justify-content:center;
+
+    }
+    .content-item{
+        display:grid;
+        grid-template-columns:auto ;
+        gap:32px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        display:flex;
+        justify-content:center;
+
+    }
+    .content-item{
+        display:grid;
+        grid-template-columns:auto ;
+        gap:32px;
+
+    }
+}
+
+
