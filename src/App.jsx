@@ -56,7 +56,7 @@ function handlePrevClick() {
     <Navbar/>
     <GridItems>
     {pokemonData.map((pokemon) => <Card  key={pokemon.id} name={pokemon.name} imageId={pokemon.sprites.other.dream_world.front_default} baseStat={pokemon.weight} height={pokemon.height} typesId={pokemon.types[0].type.name} statsID={pokemon.stats[0].base_stat} 
-       />)}
+       />)} 
     </GridItems>
     <Footer handleNextClick={handleNextClick} handlePrevClick={handlePrevClick} prevUrl={prevUrl}/>
       </>
