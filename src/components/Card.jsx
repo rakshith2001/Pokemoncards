@@ -8,7 +8,7 @@ const Card = ({name,imageId,baseStat,height,typesId,statsID}) => {
           <img src={imageId} width={150} height={150} />
           </div>
           <div style={{marginTop:'10px'}}>
-            <h1 style={{color:'#000000' , textAlign:'center',fontWeight:'bold',fontFamily:'fantasy'}}>{name}</h1>
+            <h1 style={{color:'#ffd700' , textAlign:'center',fontWeight:'bold',fontFamily:'fantasy'}}>{name}</h1>
           </div>
           <ul style={{listStyleType:'none',fontWeight:'bold',fontSize:'22px',textAlign:'center',margin:'10px',marginTop:'10px'}}>
             <li style={{color:'#000000' , textAlign:'center'}}>Weight: {baseStat}</li>
